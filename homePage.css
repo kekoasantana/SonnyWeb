@@ -1,14 +1,26 @@
 img {
-	max-width: 100%;
-	max-height: auto;
-	padding-left: 40px;
-	padding-right: 40px;
+	object-position: center;
+	object-fit: none;
+	overflow: hidden;
+} 
+
+.row {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #000;
 }
 
 .col {
-	border: 3px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	margin: 0px 7.5px 0px 7.5px;
 }
 
 .container {
 	max-width: 100%;
+}
+
+.jumbotron {
+	background-image: url(images/jumbotron.jpg);
+	background-size: cover;
+	height: 600px;
 }
